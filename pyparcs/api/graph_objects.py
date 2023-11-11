@@ -162,7 +162,7 @@ class ConstNode:
     """
 
     def __init__(self,
-                 value: Union[np.number, np.int, float]):
+                 value: Union[np.number, np.int32, float]):
         self.info = {'node_type': 'constant', 'value': value}
 
     def get_info(self):
